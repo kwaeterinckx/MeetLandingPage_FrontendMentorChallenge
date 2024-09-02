@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: var(--fs-root);
+}
+
+
+/** CUSTOM FOOTER */
+.custom_footer {
+    padding: 2rem 1rem;
+    background-color: var(--clr-dark);
+}
+
+.custom_footer__github,
+.custom_footer__info {
+    text-align: center;
+    color: var(--clr-light);
+}
+
+.custom_footer__github {
+    margin-bottom: 1rem;
+}
+
+.custom_footer__link {
+    color: var(--clr-yellow);
+    text-decoration: none;
+}
+
+.custom_footer__link:hover,
+.custom_footer__link:focus-visible {
+    text-decoration: underline;
+}

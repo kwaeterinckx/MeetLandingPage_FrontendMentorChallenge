@@ -1,0 +1,25 @@
+:root {
+    --clr-cyan-600: hsl(192, 37%, 48%);
+    --clr-cyan-300: hsl(192, 90%, 77%);
+    --clr-purple-600: hsl(268, 34%, 53%);
+    --clr-purple-300: hsl(268, 100%, 86%);
+    --clr-slate-900: hsl(240, 21%, 20%);
+    --clr-slate-600: hsl(240, 10%, 57%);
+    --clr-slate-300: hsl(240, 18%, 85%);
+    --clr-white: hsl(0, 0%, 98%);
+
+    --ff-text: "Red Hat Display";
+
+    --fs-root: 16px;
+    --fs-h1: 40px;
+    --fs-h2: 36px;
+    --fs-h3: 14px;
+    --fs-text: 18px;
+    --fs-btn: 16px;
+
+    --fw-title: 900;
+    --fw-text: 500;
+
+    --lh-title: 110%;
+    --lh-text: 150%;
+}
