@@ -1,7 +1,9 @@
 :root {
     --clr-cyan-600: hsl(192, 37%, 48%);
+    --clr-cyan-600-hover: hsl(192, 54%, 64%);
     --clr-cyan-300: hsl(192, 90%, 77%);
     --clr-purple-600: hsl(268, 34%, 53%);
+    --clr-purple-600-hover: hsl(268, 55%, 71%);
     --clr-purple-300: hsl(268, 100%, 86%);
     --clr-slate-900: hsl(240, 21%, 20%);
     --clr-slate-600: hsl(240, 10%, 57%);
@@ -12,9 +14,9 @@
 
     --fs-root: 16px;
     --fs-h1: 40px;
-    --fs-h2: 36px;
-    --fs-h3: 14px;
-    --fs-text: 18px;
+    --fs-h2: 32px;
+    --fs-h3: 12px;
+    --fs-text: 16px;
     --fs-btn: 16px;
 
     --fw-title: 900;
