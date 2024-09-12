@@ -1,5 +1,6 @@
 :root {
     --clr-cyan-600: hsl(192, 37%, 48%);
+    --clr-cyan-600a: hsla(192, 37%, 48%, .9);
     --clr-cyan-600-hover: hsl(192, 54%, 64%);
     --clr-cyan-300: hsl(192, 90%, 77%);
     --clr-purple-600: hsl(268, 34%, 53%);

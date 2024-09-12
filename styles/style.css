@@ -52,6 +52,7 @@ img {
 
 .banner__image {
     width: 100%;
+    scale: 1.1;
 }
 
 .cta {
@@ -158,6 +159,8 @@ img {
 
 .gallery__image {
     border-radius: .5rem;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .content {
@@ -192,13 +195,43 @@ img {
 
 /** Footer */
 .footer {
+    position: relative;
+    background-image: linear-gradient(0deg, var(--clr-cyan-600a), var(--clr-cyan-600a)),
+        url(../images/image-footer-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 2rem;
+    margin-top: 6.75rem;
     justify-items: center;
+}
+
+.number--footer {
+    position: absolute;
+    background: var(--clr-white);
+    top: -6.75rem;
+    left: calc(50% - 1rem);
+    transform: translateX(-50%);
 }
 
 .footer__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5rem;
+    max-width: 504px;
+}
+
+.footer__title {
+    font-size: var(--fs-h2);
+    line-height: var(--lh-title);
+    text-align: center;
+    color: var(--clr-white);
+}
+
+.footer__text {
+    text-align: center;
+    color: var(--clr-white);
 }
 
 /** CUSTOM FOOTER */

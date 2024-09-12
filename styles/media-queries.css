@@ -1,0 +1,48 @@
+/*- --------------------------------------------------
+/*- >= 600px (Tablet - Portrait)
+/*- -------------------------------------------------- */
+@media (width >=600px) {
+    :root {
+        --fs-h1: 48px;
+        --fs-h2: 36px;
+        --fs-h3: 14px;
+    }
+
+    .header {
+        padding-block: 3rem 4rem;
+    }
+
+    .banner {
+        padding-block: 4rem 4.5rem;
+    }
+
+    .cta__buttons {
+        flex-direction: row;
+    }
+
+    .main {
+        justify-items: center;
+        row-gap: 4rem;
+        padding-inline: 2.75rem;
+        padding-block: 3.5rem 4rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/*- --------------------------------------------------
+/*- >= 900px (Tablet - Landscape)
+/*- -------------------------------------------------- */
+@media (width >=900px) {}
+
+/*- --------------------------------------------------
+/*- >= 1200px (Desktop)
+/*- -------------------------------------------------- */
+@media (width >=1200px) {}
+
+/*- --------------------------------------------------
+/*- >= 1800px (Large Desktop)
+/*- -------------------------------------------------- */
+@media (width >=1800px) {}
